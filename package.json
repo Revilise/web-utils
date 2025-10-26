@@ -2,7 +2,6 @@
   "name": "@revilise/web-utils",
   "version": "1.0.0",
   "description": "Utility functions",
-  "private": true,
   "author": {
     "name": "Anastasia Mutnykh",
     "email": "mutnyh.ao@mail.ru"
