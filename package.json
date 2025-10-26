@@ -1,10 +1,17 @@
 {
   "name": "@revilise/web-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility functions",
   "author": {
     "name": "Anastasia Mutnykh",
     "email": "mutnyh.ao@mail.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/revilise/web-utils"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
