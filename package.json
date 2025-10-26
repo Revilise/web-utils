@@ -7,6 +7,8 @@
     "name": "Anastasia Mutnykh",
     "email": "mutnyh.ao@mail.ru"
   },
+  "main": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
   "type": "commonjs",
   "scripts": {
     "build": "vite build"
@@ -14,18 +16,22 @@
   "license": "MIT",
   "exports": {
     ".": {
-      "import": {
-        "hooks": "./dist/hooks.es.js",
-        "libs": "./dist/libs.es.js"
-      },
+      "import": "./dist/index.es.js",
       "types": "./dist/index.d.ts",
-      "require": {
-        "hooks": "./dist/hooks.cjs.js",
-        "libs": "./dist/libs.cjs.js"
-      }
+      "require": "./dist/index.cjs.js"
+    },
+    "./libs": {
+      "import": "./dist/libs.es.js",
+      "types": "./dist/libs.d.ts",
+      "require": "./dist/libs.cjs.js"
+    },
+    "./hooks": {
+      "import": "./dist/hooks.es.js",
+      "types": "./dist/hooks.d.ts",
+      "require": "./dist/hooks.cjs.js"
     }
   },
-  "files": ["."],
+  "files": ["dist"],
   "devDependencies": {
     "@types/node": "^24.9.1",
     "terser": "^5.44.0",

@@ -7,6 +7,7 @@ export default defineConfig({
     lib: {
       name: "web-utils",
       entry: {
+        index: path.resolve(__dirname, "src/index.ts"),
         hooks: path.resolve(__dirname, "src/hooks/index.ts"),
         libs: path.resolve(__dirname, "src/libs/index.ts"),
       },
