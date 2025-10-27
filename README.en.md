@@ -1,3 +1,5 @@
+[Русская версия](README.md)
+
 # @revilise/web-utils
 
 A collection of utilities for web development, including React hooks and performance optimization functions.
@@ -108,7 +110,3 @@ MIT
 ## 👥 Author
 
 Anastasia Mutnykh (mutnyh.ao@mail.ru)
-
----
-
-[Русская версия](README.md)
