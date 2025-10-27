@@ -29,12 +29,11 @@ const MyComponent = () => {
   const { bem } = useBEM('button');
   
   return (
-    <button 
-      className={bem({
-        baseClass: 'primary',
-        extraClasses: { disabled: true, large: false },
-        utilClasses: ['custom-class', 'another-class']
-      })}
+    <button
+       className={bem("button", {
+         extraCN: { isRed: true },
+         utilCN: ['active']
+       })}
     >
       Button
     </button>

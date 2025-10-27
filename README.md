@@ -30,10 +30,9 @@ const MyComponent = () => {
   
   return (
     <button 
-      className={bem({
-        baseClass: 'button',
-        extraClasses: { isRed: true },
-        utilClasses: ['active']
+      className={bem("button", {
+        extraCN: { isRed: true },
+        utilCN: ['active']
       })}
     >
       Нажми на меня

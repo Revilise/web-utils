@@ -1,1 +1,1 @@
-export { useBEM } from "./bem/index";
+export { useBEM } from "./bem";
